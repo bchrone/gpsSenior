@@ -1,0 +1,6 @@
+framework module Pods_EdtUa {
+  umbrella header "Pods-EdtUa-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F048A582219E7C700BA1796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F048A572219E7C700BA1796 /* AppDelegate.swift */; };
+		5F048A5A2219E7C700BA1796 /* InscriptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F048A592219E7C700BA1796 /* InscriptionController.swift */; };
+		5F048A5D2219E7C700BA1796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F048A5B2219E7C700BA1796 /* Main.storyboard */; };
+		5F048A5F2219E7CD00BA1796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F048A5E2219E7CD00BA1796 /* Assets.xcassets */; };
+		5F048A622219E7CD00BA1796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F048A602219E7CD00BA1796 /* LaunchScreen.storyboard */; };
+		5F0607CB221F607800C86660 /* SalleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0607CA221F607800C86660 /* SalleController.swift */; };
+		5F5AFF862220D07A00B1FB7B /* EnregistrerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5AFF852220D07A00B1FB7B /* EnregistrerController.swift */; };
+		5F5AFF882220EA6900B1FB7B /* 44435059-f60c-4606-aa3f-24a5bc3d5468.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F5AFF872220EA6900B1FB7B /* 44435059-f60c-4606-aa3f-24a5bc3d5468.png */; };
+		5F6929732225D0D0001E8CEA /* Enregistrer2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6929722225D0D0001E8CEA /* Enregistrer2Controller.swift */; };
+		5F6929752225D0ED001E8CEA /* Enregistrer3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6929742225D0ED001E8CEA /* Enregistrer3Controller.swift */; };
+		5F6A610D221B2D0A008983B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F6A610C221B2D09008983B2 /* GoogleService-Info.plist */; };
+		5FCCE2D3221C3ED800D72898 /* EdtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCCE2D2221C3ED800D72898 /* EdtViewController.swift */; };
+		5FCCE2D5221C4E5700D72898 /* ConnecterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCCE2D4221C4E5700D72898 /* ConnecterController.swift */; };
+		AED2D0B0A9B9C93E528606AF /* Pods_EdtUa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46008E9E49316F64390A32C1 /* Pods_EdtUa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46008E9E49316F64390A32C1 /* Pods_EdtUa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EdtUa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F048A542219E7C700BA1796 /* EdtUa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdtUa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F048A572219E7C700BA1796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F048A592219E7C700BA1796 /* InscriptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscriptionController.swift; sourceTree = "<group>"; };
+		5F048A5C2219E7C700BA1796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F048A5E2219E7CD00BA1796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F048A612219E7CD00BA1796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F048A632219E7CD00BA1796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F0607CA221F607800C86660 /* SalleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalleController.swift; sourceTree = "<group>"; };
+		5F5AFF852220D07A00B1FB7B /* EnregistrerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnregistrerController.swift; sourceTree = "<group>"; };
+		5F5AFF872220EA6900B1FB7B /* 44435059-f60c-4606-aa3f-24a5bc3d5468.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "44435059-f60c-4606-aa3f-24a5bc3d5468.png"; path = "Assets.xcassets/44435059-f60c-4606-aa3f-24a5bc3d5468.imageset/44435059-f60c-4606-aa3f-24a5bc3d5468.png"; sourceTree = "<group>"; };
+		5F6929722225D0D0001E8CEA /* Enregistrer2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enregistrer2Controller.swift; sourceTree = "<group>"; };
+		5F6929742225D0ED001E8CEA /* Enregistrer3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enregistrer3Controller.swift; sourceTree = "<group>"; };
+		5F6A610C221B2D09008983B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5FCCE2D2221C3ED800D72898 /* EdtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdtViewController.swift; sourceTree = "<group>"; };
+		5FCCE2D4221C4E5700D72898 /* ConnecterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnecterController.swift; sourceTree = "<group>"; };
+		70F3B1E99FD1A27FFE39CE23 /* Pods-EdtUa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdtUa.debug.xcconfig"; path = "Target Support Files/Pods-EdtUa/Pods-EdtUa.debug.xcconfig"; sourceTree = "<group>"; };
+		EAAE984C34A88441F62D0F95 /* Pods-EdtUa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdtUa.release.xcconfig"; path = "Target Support Files/Pods-EdtUa/Pods-EdtUa.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F048A512219E7C700BA1796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED2D0B0A9B9C93E528606AF /* Pods_EdtUa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D78CEE126DD50F673CEE784 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46008E9E49316F64390A32C1 /* Pods_EdtUa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F048A4B2219E7C700BA1796 = {
+			isa = PBXGroup;
+			children = (
+				5F048A562219E7C700BA1796 /* EdtUa */,
+				5F048A552219E7C700BA1796 /* Products */,
+				CF1FFE12BD6FDCE5E39B59E7 /* Pods */,
+				5D78CEE126DD50F673CEE784 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F048A552219E7C700BA1796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F048A542219E7C700BA1796 /* EdtUa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F048A562219E7C700BA1796 /* EdtUa */ = {
+			isa = PBXGroup;
+			children = (
+				5F048A572219E7C700BA1796 /* AppDelegate.swift */,
+				5F048A592219E7C700BA1796 /* InscriptionController.swift */,
+				5FCCE2D4221C4E5700D72898 /* ConnecterController.swift */,
+				5FCCE2D2221C3ED800D72898 /* EdtViewController.swift */,
+				5F0607CA221F607800C86660 /* SalleController.swift */,
+				5F5AFF852220D07A00B1FB7B /* EnregistrerController.swift */,
+				5F6929722225D0D0001E8CEA /* Enregistrer2Controller.swift */,
+				5F6929742225D0ED001E8CEA /* Enregistrer3Controller.swift */,
+				5F048A5B2219E7C700BA1796 /* Main.storyboard */,
+				5F048A5E2219E7CD00BA1796 /* Assets.xcassets */,
+				5F048A602219E7CD00BA1796 /* LaunchScreen.storyboard */,
+				5F048A632219E7CD00BA1796 /* Info.plist */,
+				5F5AFF872220EA6900B1FB7B /* 44435059-f60c-4606-aa3f-24a5bc3d5468.png */,
+				5F6A610C221B2D09008983B2 /* GoogleService-Info.plist */,
+			);
+			path = EdtUa;
+			sourceTree = "<group>";
+		};
+		CF1FFE12BD6FDCE5E39B59E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70F3B1E99FD1A27FFE39CE23 /* Pods-EdtUa.debug.xcconfig */,
+				EAAE984C34A88441F62D0F95 /* Pods-EdtUa.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F048A532219E7C700BA1796 /* EdtUa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F048A662219E7CD00BA1796 /* Build configuration list for PBXNativeTarget "EdtUa" */;
+			buildPhases = (
+				99D58903EF1E088C4C5A5B9B /* [CP] Check Pods Manifest.lock */,
+				5F048A502219E7C700BA1796 /* Sources */,
+				5F048A512219E7C700BA1796 /* Frameworks */,
+				5F048A522219E7C700BA1796 /* Resources */,
+				6BA78BAA529807DA48141352 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EdtUa;
+			productName = EdtUa;
+			productReference = 5F048A542219E7C700BA1796 /* EdtUa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F048A4C2219E7C700BA1796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Mr.Link's";
+				TargetAttributes = {
+					5F048A532219E7C700BA1796 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5F048A4F2219E7C700BA1796 /* Build configuration list for PBXProject "EdtUa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F048A4B2219E7C700BA1796;
+			productRefGroup = 5F048A552219E7C700BA1796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F048A532219E7C700BA1796 /* EdtUa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F048A522219E7C700BA1796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F048A622219E7CD00BA1796 /* LaunchScreen.storyboard in Resources */,
+				5F5AFF882220EA6900B1FB7B /* 44435059-f60c-4606-aa3f-24a5bc3d5468.png in Resources */,
+				5F6A610D221B2D0A008983B2 /* GoogleService-Info.plist in Resources */,
+				5F048A5F2219E7CD00BA1796 /* Assets.xcassets in Resources */,
+				5F048A5D2219E7C700BA1796 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BA78BAA529807DA48141352 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EdtUa/Pods-EdtUa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EdtUa/Pods-EdtUa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99D58903EF1E088C4C5A5B9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EdtUa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F048A502219E7C700BA1796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6929752225D0ED001E8CEA /* Enregistrer3Controller.swift in Sources */,
+				5F5AFF862220D07A00B1FB7B /* EnregistrerController.swift in Sources */,
+				5F0607CB221F607800C86660 /* SalleController.swift in Sources */,
+				5FCCE2D5221C4E5700D72898 /* ConnecterController.swift in Sources */,
+				5FCCE2D3221C3ED800D72898 /* EdtViewController.swift in Sources */,
+				5F6929732225D0D0001E8CEA /* Enregistrer2Controller.swift in Sources */,
+				5F048A5A2219E7C700BA1796 /* InscriptionController.swift in Sources */,
+				5F048A582219E7C700BA1796 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F048A5B2219E7C700BA1796 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F048A5C2219E7C700BA1796 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F048A602219E7CD00BA1796 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F048A612219E7CD00BA1796 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F048A642219E7CD00BA1796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F048A652219E7CD00BA1796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F048A672219E7CD00BA1796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F3B1E99FD1A27FFE39CE23 /* Pods-EdtUa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBG9L924JC;
+				INFOPLIST_FILE = EdtUa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linksAndBabas.EdtUa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F048A682219E7CD00BA1796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAAE984C34A88441F62D0F95 /* Pods-EdtUa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBG9L924JC;
+				INFOPLIST_FILE = EdtUa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linksAndBabas.EdtUa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F048A4F2219E7C700BA1796 /* Build configuration list for PBXProject "EdtUa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F048A642219E7CD00BA1796 /* Debug */,
+				5F048A652219E7CD00BA1796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F048A662219E7CD00BA1796 /* Build configuration list for PBXNativeTarget "EdtUa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F048A672219E7CD00BA1796 /* Debug */,
+				5F048A682219E7CD00BA1796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F048A4C2219E7C700BA1796 /* Project object */;
+}
